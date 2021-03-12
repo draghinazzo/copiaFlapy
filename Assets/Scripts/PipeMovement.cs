@@ -14,6 +14,6 @@ public class PipeMovement : MonoBehaviour
     }
 
     void SwitchMovement() {
-        GetComponent<Rigidbody2D>().velocity *= -1;
+        GetComponent<Rigidbody2D>().velocity *= -1; 
     }
 }
